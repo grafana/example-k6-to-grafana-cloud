@@ -9,7 +9,7 @@ account.
 - docker-compose
 - credentials for grafana cloud prometheus
 
-## How to use this repositor
+## How to use this repository
 
 1. Change `telegraf.conf` to contain your username and password:
 ```toml
