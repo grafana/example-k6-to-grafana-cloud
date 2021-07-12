@@ -1,0 +1,9 @@
+version: '3.8'
+
+services: 
+    telegraf:
+        image: telegraf:1.18.2-alpine
+        ports:
+          - 8086:8186
+        volumes:
+            - ./telegraf/telegraf.conf:/etc/telegraf/telegraf.conf
